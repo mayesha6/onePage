@@ -1,0 +1,31 @@
+:root{
+    --color1:#2487ce;
+    --color2:#3194bd;
+    --color3:#124265;
+    --color4:#16507b;
+    --color4:#919191;
+    --color5:#444444;
+    --color6:#c9e3f5;
+    --color7:#f8fbfe;
+
+     /*  comon fonts*/
+  
+     --fontSize10: 10px;
+     --fontSize12: 12px;
+     --fontSizeXs: 13px;
+     --fontSizeS: 14px;
+     --fontSizeM: 15px;
+     --fontSize16:16px;
+     --fontSize18:18px;
+     --fontSize18:16px;
+     --fontSize20:20px;
+     --fontSize22:22px;
+     --fontSize23:23px;
+     --fontSize24:24px;
+     --fontSize25:25px;
+     --fontSize26:26px;
+     --fontSize28:28px;
+     --fontSize30:30px;
+     --fontSize36:36px;
+     --fontSize56:56px;
+}

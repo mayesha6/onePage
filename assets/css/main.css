@@ -1,0 +1,138 @@
+/*
+====================================================
+                header section
+====================================================
+*/
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: 67%;
+}
+.header-section .navbar-brand{
+    font-weight:300;
+    font-size:var(--fontSize28);
+    color:var(--color4);
+}
+/*
+====================================================
+                banner section
+====================================================
+*/
+.banner-section{
+    background-image: url('../images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    position:relative;
+    
+}
+.banner-section::before{
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index:1;
+}
+.banner-section .banner{
+    position:relative;
+    z-index:2;
+}
+.banner-section h1{
+    font-weight:700;
+    line-height:72px;
+    font-size:var(--fontSize56);
+    color:var(--color3);
+}
+.banner-btn-style{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+    padding: 14px 50px !important;
+    background: #2487ce !important;
+}
+.banner-section .nemo{
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+    /* width:23.5%; */
+}
+/* .banner-section .nemo:not(:last-child){
+    margin-right: 2%;
+} */
+/*
+====================================================
+                 vdo section
+====================================================
+*/
+.vdo-img{
+    height:400px;
+}
+.vdo-img img{
+    object-fit: cover;
+}
+.vdo-icon{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+/*
+====================================================
+                 partner section
+====================================================
+*/
+.partner-logo-item img{
+    filter:grayscale(100%);
+    cursor:pointer;
+    transition:.5s all;
+}
+.partner-logo-item:hover img{
+    filter:grayscale(0%);
+}
+/*
+====================================================
+                 testimonial section
+====================================================
+*/
+/* .carousel-item{
+    height:375px;
+} */
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+}
+/*
+====================================================
+                team section
+====================================================
+*/
+.team-section .team{
+    box-shadow: 0px 2px 15px rgb(18 66 101 / 8%);
+}
+/*
+====================================================
+                 question section
+====================================================
+*/
+.accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+    color: var(--color1)!important;
+}
+/*
+====================================================
+                 section
+====================================================
+*/
+/*
+====================================================
+                 section
+====================================================
+*/
+/*
+====================================================
+                 section
+====================================================
+*/
+/* @media(max-width:992px){
+    .carousel-item{
+        height:375px;
+    }
+} */

@@ -1,0 +1,83 @@
+/*
+=======================================
+            global section
+=======================================
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+p{
+    margin:0;
+    padding:0;
+}
+input:focus, button:focus, select:focus, textarea:focus{
+    border:none !important;
+    outline:none !important;
+    box-shadow:none !important;
+}
+.button-color{
+    background-color: var(--color1);
+    transition:0.3s all;
+}
+.button-color:hover{
+    background-color: var(--color2);
+}
+.icon-details{
+    font-size:var(--fontSize36);
+    color:var(--color1);
+}
+.color3{
+    color:var(--color3);
+}
+.color4{
+    color:var(--color4);
+}
+.color5{
+    color:var(--color5);
+}
+.color6{
+    color:var(--color6);
+}
+.color1{
+    color:var(--color1);
+}
+.bg1{
+    background-color:var(--color1);
+}
+.bg6{
+    background-color:var(--color6);
+}
+.bg7{
+    background-color:var(--color7);
+}
+.font20{
+    font-size:var(--fontSize20);
+}
+.font10{
+    font-size:var(--fontSize10);
+}
+.font36{
+    font-size:var(--fontSize36);
+}
+.hfont{
+    font-size:var(--fontSize26);
+}
+.pfont{
+    font-size:var(--fontSize16);
+    color:var(--color4);
+    line-height:28px;
+    font-weight:400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
